@@ -1,0 +1,16 @@
+.circle1{
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    border-style: solid;
+    border-color: lightgray;
+    background-color: white;
+}
+.imageCircle{
+    border-style: none;
+    border-color: lightgray;
+    margin-top: 22px;
+    margin-left: 22px;
+    border-radius: 50%;
+    background-color: rgb(0, 72, 255);
+}

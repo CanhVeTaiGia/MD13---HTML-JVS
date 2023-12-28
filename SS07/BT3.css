@@ -1,0 +1,42 @@
+.square{
+    height: 240px;
+    width: 250px;
+    border-style: solid;
+    border-top-right-radius: 60%;
+    border-top-left-radius: 60%;
+    border-color: lightgray ;
+    border-bottom-color: white;
+}
+
+.square2{
+    margin-left: 21px;
+    margin-top: 20px;
+    height: 210px;
+    width: 200px;
+    border-style: solid;
+    background-color: red;
+    border: none;
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+    border-bottom-left-radius: 10%;
+    border-bottom-right-radius: 10%;
+}
+
+.square3{
+    height: 200px;
+    width: 250px;
+    border-style: solid;
+    border-color: lightgray ;
+    border-top-color: white;
+    font-family: sans-serif;
+       
+}
+
+.image2{
+    margin-left: 5px;
+    margin-top:-40px;
+}
+.a{
+    margin-left: 10px; 
+    font-size: large;
+}

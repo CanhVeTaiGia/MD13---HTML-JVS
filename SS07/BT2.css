@@ -1,0 +1,22 @@
+.b{
+    height: 500px;
+    width: 250px;
+    border-style: solid;
+    border-color: lightgray;
+    border-radius: 10%;
+}
+.image{
+    border-top-right-radius: 10%;
+    border-top-left-radius: 10%;
+}
+
+.head1{
+    font-size: small;
+    font-family: sans-serif;
+}
+.b1{
+    height: 600px;
+    width: 300px;
+    border-style: solid;
+    border-color: lightgray;
+}
