@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.maintain{
+    width: 300px;
+    border: 10px solid white;
+    background-color: lightblue;
+}
+
+.maintain h1{
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.maintain li{
+    margin-left: 10px;
+}
+
+.maintain ul{
+    margin-left: 20px;
+}
+
+li{
+    list-style-type: circle;
+}
+
+.a:hover{
+    color:red;
+}

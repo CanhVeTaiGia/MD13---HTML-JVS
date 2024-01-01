@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.rectangle{
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.pick{
+    font-size: 20px;
+    border: none;
+    width: 300px;
+    background-color: rgb(223, 246, 253);
+}
+
+.pick:hover{
+    translate: 10px 0;
+    color: red;
+    background-color: rgb(240, 240, 240);
+}

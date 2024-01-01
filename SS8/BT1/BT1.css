@@ -1,0 +1,29 @@
+*{
+   margin: 0;
+   padding: 0;
+}
+
+.maintain{
+    width: 300px;
+    border: 10px solid;
+    box-sizing: border-box;
+    background-color: rgb(255, 234, 176);
+    border-color: white;
+}
+
+.maintain h1{
+    margin-left: 10px;
+}
+
+.maintain div{
+    margin-left: 10px;
+}
+
+.maintain label{
+    font-size: large;
+}
+
+.age{
+    background-color: yellow;
+}
+
