@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.navbar {
+    display: flex;
+    padding: 10px;
+    height: 100vh;
+}
+.navbar .header {
+    font-family: 'Zeyada', cursive;
+    padding: 20px;
+    font-size: 40px;
+}
+.navbar .navbar-list {
+    list-style: none;
+    display: flex;
+    padding: 30px;
+
+}
+.navbar .navbar-list .navbar-item {
+    padding: 10px;
+    color: lightgray;
+}
+
+.navbar .navbar-list .home{
+    color: black;
+}
+
+.navbar .navbar-list .input{
+    position: relative;
+    color: black;
+    height: 25px;
+}
+
+
+.navbar .navbar-list .navbar-item .material-symbols-outlined{
+    position: absolute;
+    color: black;
+}
+
+.navbar .navbar-list .navbar-item input{
+    position: absolute;
+}
+
+.navbar .navbar-list .navbar-item input::placeholder{
+    padding: 20px;
+}

@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.div{
+    display: flex;
+}
+
+.div .div1{
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.div .div2{
+    margin: 10px;
+    display: flex;
+    flex-direction: column-reverse;
+    gap: 30px;
+}
+
+.div .div1 .square{
+    display: flex;
+    height: 150px;
+    width: 300px;
+    background-color: lightgray;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5%;
+    font-size: 40px;
+}
+
+.div .div1 .image{
+    height: 300px;
+    width: 300px;
+    border-radius: 5%;
+}
+.div .div2 .square{
+    display: flex;
+    height: 150px;
+    width: 300px;
+    background-color: lightgray;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5%;
+    font-size: 40px;
+}
+
+.div .div2 .image{
+    height: 300px;
+    width: 300px;
+    border-radius: 5%;
+}
