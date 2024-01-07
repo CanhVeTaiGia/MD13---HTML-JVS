@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200');
+
+.article{
+    width: 100%;
+    display: flex;
+}
+
+.article .search-filter{
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.article .search-filter .search-bar{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+}
+
+.search-filter .search-bar .search-page{
+    display: flex;
+    width: 1030px;
+    height: 84px;
+    margin-top: 50px;
+    font-size: 20px;
+}
+
+.search-filter .search-bar .search-icon{
+    position: absolute;
+    left: 120px;
+    top: 60px;
+    font-size: 65px;
+    color: lightgray;
+}
+
+
+.search-filter .search-bar .search-page::placeholder{
+    display: flex;
+    align-items: center;
+    padding-left: 100px;
+}
+
+.article .search-filter .filter{
+    display: flex;
+    width: 190px;
+    height: 84px;
+    background-color: lightgray;
+}
