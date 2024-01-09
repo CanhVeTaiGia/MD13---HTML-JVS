@@ -1,0 +1,107 @@
+
+.section{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    background-color: white;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+}
+
+.section .personal{
+    width: 80%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.personal-detail .h1{
+    display: flex;
+    font-size: 24px;
+    color: black;
+}
+
+.section .personal .personal-detail{
+    display: flex;
+    width: 400px;
+    flex-direction: column;
+    color: lightslategray;
+}
+
+.personal .personal-detail .icon{
+    margin-top: 10px;
+    display: flex;
+    width: 100%;
+}
+
+.personal-detail .icon .image{ 
+    display: flex;
+    background-size: cover;
+    width: 24px;
+    height: 24px;
+    background-color: lightslategray;
+    border-radius: 50%;
+}
+
+.per
+
+.personal .personal-detail{
+    display: flex;
+    flex-direction: column;
+    width: 600px;
+    height: 100px;
+}
+
+.section .experience{
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    justify-content: space-around;
+    gap: 20px;
+}
+
+.section .experience .row{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 10px;
+}
+
+.section .experience .row2{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.section .experience .box{
+    display: flex;
+    width: 210px;
+    height:70px;
+    border: 1px solid lightgray;
+    gap: 10px;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 5%;
+}
+
+.experience .icon{
+    display: flex;
+    width: 80px;
+    height: 80px;
+}
+
+.personal .personal-details{
+    display: flex;
+    flex-direction: column;
+    font-size: 18px;
+    font-weight: 900;
+    gap: 5px;
+    width: 400px;
+}
+
+.personal .personal-details .content1{
+    text-align: end;
+    color: lightslategray;
+}
